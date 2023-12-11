@@ -1,356 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geo Website </title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-        }
-        .product-card {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-bottom: 20px;
-        }
-        .product-image {
-            width: 30%;
-            height: auto;
-        }
-        .product-details {
-            width: 70%;
-        }
-        .product-name {
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .product-price {
-            font-size: 20px;
-            font-weight: bold;
-            color: #f60;
-            margin-bottom: 10px;
-        }
-        .product-description {
-            font-size: 16px;
-            line-height: 1.5;
-        }
-        .add-to-cart {
-            display: inline-block;
-            background-color: #007bff;
-            color: #fff;
-            text-align: center;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-        }
+<title>Drop Shipping Store</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<style>
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.product-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.product-box {
+    width: 200px;
+    height: 550px;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.best-seller-section {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.buy-now-btn {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+</style>
+<style>
+    #img{
+     width: 150px;
+     height: 150px;
+    }
+    .small-img{
+     width: 50px;
+     height: 50px;
+     cursor: pointer;
+    }
     </style>
 </head>
 <body>
+
+   
+    
+    
+    
     <div class="container">
-        <h1>Welcome to Our Gerogia Website</h1>
-        <div class="product-card">
-            <img src="download.webp" alt="basketball ball" class="basketball">
-            <div class="product-details">
-                <div class="product-name">Indoor silent basketball ball</div>
-                <div class="product-price">9.99$</div>
-                <div class="product-description">24cm Size 7 Silent Basketball Bouncing High Mute Ball Basketball Sports Game Kids Birthday Christmas Gift
-
-                </div>
-                
-                <style>
-                    .buy-now-button {
-                       display: inline-block;
-                       font-size: 14px;
-                       line-height: 1.43;
-                       color: #fff;
-                       background-color: #337ab7;
-                       border-color: #2e6da4;
-                       padding: 6px 12px;
-                       margin-bottom: 0;
-                       font-weight: normal;
-                       text-align: center;
-                       vertical-align: middle;
-                       cursor: pointer;
-                       border: 1px solid transparent;
-                       border-radius: 4px;
-                       text-decoration: none;
-                    }
-                    .buy-now-button:hover {
-                       background-color: #286090;
-                       border-color: #204d74;
-                    }
-                   </style>
-                   
-                   
-                   <a href="Afterpage.html" class="buy-now-button">Buy Now</a>
-            </div>
-        </div>
+     <form action="/search">
+        <input type="text" placeholder="Search..." name="query">
+        <button type="submit">
+          <i class="fa fa-search"></i>
+        </button>
+     </form>
     </div>
-    <div class="container">
-        <div class="product-card">
-            <img src="sid.jpg" alt="glasses" class="glasses">
-            <div class="product-details">
-                <div class="product-name">Cyberpunk glasses</div>
-                <div class="product-price">9.00$</div>
-                <div class="product-description">Cool Luminous Colorful LED Light Up Glasses Glowing Neon Light Flashing Party Glasses For Nightclub DJ Dance Party Decor</div>
-
-                
-                
-                <style>
-                    .buy-now-button {
-                       display: inline-block;
-                       font-size: 14px;
-                       line-height: 1.43;
-                       color: #fff;
-                       background-color: #337ab7;
-                       border-color: #2e6da4;
-                       padding: 6px 12px;
-                       margin-bottom: 0;
-                       font-weight: normal;
-                       text-align: center;
-                       vertical-align: middle;
-                       cursor: pointer;
-                       border: 1px solid transparent;
-                       border-radius: 4px;
-                       text-decoration: none;
-                    }
-                    .buy-now-button:hover {
-                       background-color: #286090;
-                       border-color: #204d74;
-                    }
-                   </style>
-                   
-                   
-                   <a href="Afterpage.html" class="buy-now-button">Buy Now</a>
-            </div>
-        </div>
-    </div>
-</div>
-</div>
-</div>
-
-<div class="container">
-<div class="product-card">
-    <img src="smart.webp" alt="watch" class="glasses" width="150" height="150">
-    <div class="product-details">
-        <div class="product-name">Smart watch</div>
-        <div class="product-price">19.99$</div>
-        <div class="product-description">2023 Watch 9 Smart Watch Men Body Temperature BT Call NFC Always on Display Fitness Women Series 8 Smartwatch for Apple Android</div>
-
+    
+    
+    
+    
+<div class="product-section">
+    <div class="product-box">
+        <div id="img-container">
+            <img id="img" src="download.jpg" alt="ball" height="100" width="100">
+           </div>
+           
+           <div class="small-img-container">
+            <img class="small-img" src="https://ae04.alicdn.com/kf/Sb7597bc544514b87a761899d5460b36am.jpg_640x640.jpg" alt="" width="50" height="100">
+            <img class="small-img" src="https://ae04.alicdn.com/kf/S6188fb15a66a4b4b8190cf835b12afa3k.jpg_640x640.jpg" alt=""width="50" height="100">
+            <img class="small-img" src="https://ae04.alicdn.com/kf/S8a6579c6e4e648e58397f704f51128e7Z.jpg_640x640.jpg" alt=""width="50" height="100">
+            <img class="small-img" src="download.jpg" alt=""width="50" height="100">
+           </div>
+           
+           <script>
+            let mainImage = document.getElementById('img');
+            let smallImages = document.getElementsByClassName('small-img');
+           
+            for(let i=0; i<smallImages.length; i++){
+               smallImages[i].addEventListener('mouseover', function(){
+                 mainImage.src = this.src;
+               });
+            }
+           </script>
         
-        <style>
-            .buy-now-button {
-               display: inline-block;
-               font-size: 14px;
-               line-height: 1.43;
-               color: #fff;
-               background-color: #337ab7;
-               border-color: #2e6da4;
-               padding: 6px 12px;
-               margin-bottom: 0;
-               font-weight: normal;
-               text-align: center;
-               vertical-align: middle;
-               cursor: pointer;
-               border: 1px solid transparent;
-               border-radius: 4px;
-               text-decoration: none;
-            }
-            .buy-now-button:hover {
-               background-color: #286090;
-               border-color: #204d74;
-            }
-           </style>
-           
-           
-           <a href="Afterpage.html" class="buy-now-button">Buy Now</a>
+        <h2>Silent basketball ball</h2>
+      
+        <p>Bouncing Mute Ball Toy Indoor Silent Basketball Baby Foam Toy Silent Playground Bounce Basketball Child Sports Games Gift . </p>
+        <p>Price:9.99$ </p>
+        <a href="#" class="buy-now-btn">buy Now</a>
+    </div>
+
+    <div class="product-box">
+        <h2>Product 2</h2>
+        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        <p>Price: $49.99</p>
+        <a href="#" class="buy-now-btn">buy Now</a>
+    </div>
+
+    <div class="product-box">
+        <h2>Product 3</h2>
+        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+        <p>Price: $49.99</p>
+        <a href="#" class="buy-now-btn">buy Now</a>
     </div>
 </div>
-</div>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="product-card">
-    <img src="mask(1).webp" alt="mask" class="glasses">
-    <div class="product-details">
-        <div class="product-name">Led mask</div>
-        <div class="product-price">5.00$</div>
-        <div class="product-description">Glowing Cosplay EL Wire neon Mask Scary Skull Masquerade Luminous Carnival Festive Party Supplies LED Purge Mask For Halloween</div>
 
-        
-        <style>
-            .buy-now-button {
-               display: inline-block;
-               font-size: 14px;
-               line-height: 1.43;
-               color: #fff;
-               background-color: #337ab7;
-               border-color: #2e6da4;
-               padding: 6px 12px;
-               margin-bottom: 0;
-               font-weight: normal;
-               text-align: center;
-               vertical-align: middle;
-               cursor: pointer;
-               border: 1px solid transparent;
-               border-radius: 4px;
-               text-decoration: none;
-            }
-            .buy-now-button:hover {
-               background-color: #286090;
-               border-color: #204d74;
-            }
-           </style>
-           
-           
-           <a href="Afterpage.html" class="buy-now-button">Buy Now</a>
-    </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="product-card">
-    <img src="boat2.webp" alt="boat" class="glasses" width="150" height="150">
-    <div class="product-details">
-        <div class="product-name">Unsinkable Boat</div>
-        <div class="product-price">6.99$</div>
-        <div class="product-description">Acrylic Cruise Ship Hits Iceberg Decoration Never Sinks Liquid Wave Paperweight Desk Toy Car Desktop Ornaments unsinkable Boat</div>
-
-        
-        <style>
-            .buy-now-button {
-               display: inline-block;
-               font-size: 14px;
-               line-height: 1.43;
-               color: #fff;
-               background-color: #337ab7;
-               border-color: #2e6da4;
-               padding: 6px 12px;
-               margin-bottom: 0;
-               font-weight: normal;
-               text-align: center;
-               vertical-align: middle;
-               cursor: pointer;
-               border: 1px solid transparent;
-               border-radius: 4px;
-               text-decoration: none;
-            }
-            .buy-now-button:hover {
-               background-color: #286090;
-               border-color: #204d74;
-            }
-           </style>
-           
-           
-           <a href="Afterpage.html" class="buy-now-button">Buy Now</a>
-    </div>
-</div>
+<div class="best-seller-section">
+    <h2>Best Seller Products</h2>
+    <!-- Add more best seller products here -->
 </div>
 
-<style>
- .buy-now-button {
-    display: inline-block;
-    font-size: 14px;
-    line-height: 1.43;
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-weight: normal;
-    text-align: center;
-    vertical-align: middle;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    text-decoration: none;
- }
- .buy-now-button:hover {
-    background-color: #286090;
-    border-color: #204d74;
- }
-</style>
-<div class="container">
-    <div class="product-card">
-        <img src="data:image/jpeg;base64,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" alt="boat" class="glasses" width="150" height="150">
-        <div class="product-details">
-            <div class="product-name">Unsinkable Boat</div>
-            <div class="product-price">6.99$</div>
-            <div class="product-description">Acrylic Cruise Ship Hits Iceberg Decoration Never Sinks Liquid Wave Paperweight Desk Toy Car Desktop Ornaments unsinkable Boat</div>
-    
-            
-            <style>
-                .buy-now-button {
-                   display: inline-block;
-                   font-size: 14px;
-                   line-height: 1.43;
-                   color: #fff;
-                   background-color: #337ab7;
-                   border-color: #2e6da4;
-                   padding: 6px 12px;
-                   margin-bottom: 0;
-                   font-weight: normal;
-                   text-align: center;
-                   vertical-align: middle;
-                   cursor: pointer;
-                   border: 1px solid transparent;
-                   border-radius: 4px;
-                   text-decoration: none;
-                }
-                .buy-now-button:hover {
-                   background-color: #286090;
-                   border-color: #204d74;
-                }
-               </style>
-               
-               
-               <a href="Afterpage.html" class="buy-now-button">Buy Now</a>
-        </div>
-    </div>
-    </div>
-    
-    <style>
-     .buy-now-button {
-        display: inline-block;
-        font-size: 14px;
-        line-height: 1.43;
-        color: #fff;
-        background-color: #337ab7;
-        border-color: #2e6da4;
-        padding: 6px 12px;
-        margin-bottom: 0;
-        font-weight: normal;
-        text-align: center;
-        vertical-align: middle;
-        cursor: pointer;
-        border: 1px solid transparent;
-        border-radius: 4px;
-        text-decoration: none;
-     }
-     .buy-now-button:hover {
-        background-color: #286090;
-        border-color: #204d74;
-     }
-    </style>
-    
 
-
-
-
-
-    
 </body>
 </html>
